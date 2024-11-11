@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    android:orientation="vertical"
+    tools:context=".Noticias">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:shadowColor="#FAFAFA"
+            android:text="Sobre Nosotros"
+            android:textColor="#F0E8E8"
+            android:textSize="48sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextoSobreNosotros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:gravity="center_horizontal"
+            android:text="Esencia Informática es una revista creada para los entusiastas y profesionales de la tecnología que buscan información clara, profunda y actualizada sobre el mundo digital. Nos especializamos en cubrir las últimas tendencias en software, hardware, inteligencia artificial, ciberseguridad, y todo lo relacionado con la evolución tecnológica.  En Esencia Informática, nuestro equipo de expertos se dedica a analizar y explicar los avances más relevantes, ofreciendo una perspectiva única que abarca desde lo más técnico hasta lo más innovador en el sector. Nuestro objetivo es empoderarte con conocimientos que impulsen tu curiosidad, mejoren tus habilidades y te preparen para los desafíos de la era digital."
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
