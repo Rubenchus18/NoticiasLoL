@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#000000"
     android:orientation="vertical"
-    tools:context=".Valorant">
+    tools:context=".CsGo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,38 +20,37 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textoTitular"
+            android:id="@+id/textoTitular5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:fontFamily="serif-monospace"
             android:gravity="center_horizontal"
-            android:text="Riot Games Anuncia Cambios "
+            android:text="Counter-Strike 2"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textoTitular2"
+            android:id="@+id/textoTitular6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="serif-monospace"
             android:gravity="center_horizontal"
-            android:text="Riot Games, la empresa detrás de Valorant, ha anunciado cambios significativos para el juego en 2024, enfocados en mejorar la experiencia competitiva y el contenido para la comunidad. Entre las novedades más destacadas se encuentran la introducción de nuevos mapas, ajustes en el balance de agentes, y un sistema de clasificación renovado. Además, se confirmó la llegada de un nuevo agente con habilidades únicas que podrían cambiar la dinámica en el juego táctico. Riot también planea una mayor integración de eventos en el juego, enfocados en la narrativa de cada agente y su historia."
+            android:text="La actualización trajo mejoras gráficas, nuevas mecánicas de juego y ajustes en el sistema de disparo, renovando la experiencia para jugadores veteranos y nuevos. La comunidad ha respondido positivamente a estos cambios, impulsando aún más la popularidad del juego y consolidando su lugar como uno de los títulos de esports más influyentes del mundo."
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/valojpeg" />
-
+            app:srcCompat="@drawable/hd" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" />
+        android:orientation="vertical"></LinearLayout>
 </LinearLayout>
