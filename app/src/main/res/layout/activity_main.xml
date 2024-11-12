@@ -33,7 +33,7 @@
             android:shadowColor="#000000"
             android:text="Esencia Informativa"
             android:textColor="@color/white"
-            android:textSize="48sp"
+            android:textSize="34sp"
             app:autoSizeTextType="uniform" />
     </LinearLayout>
 
