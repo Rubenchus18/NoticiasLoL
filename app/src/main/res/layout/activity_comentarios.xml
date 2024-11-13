@@ -17,7 +17,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:orientation="vertical"/>
+        android:orientation="vertical">
+
+        <ListView
+            style="@style/Widget.AppCompat.Light.ListView.DropDown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#FFFFFF" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
